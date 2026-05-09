@@ -1,4 +1,7 @@
--- Users
+
+USE [TestCommunityPlatform]
+GO-- Users
+
 INSERT INTO [Users] ([Phone], [UserName], [Password]) VALUES
 ('0911111111', '1號測試', '$2a$10$R8NYuGmSX3x/8axbqYRhqu.hx44QRds5b/aI71jBC7Q08SeMjyYEG'),
 ('0922222222', '2號測試', '$2a$10$B5rZGUBXVa6cHA.rXgmSOupy8pMbStyi7WiE9BwzEqln2cCB/nm8O');
